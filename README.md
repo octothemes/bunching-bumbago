@@ -13,7 +13,7 @@ You can choose to install as a Git submodule. Or you can download as a zip archi
 These instructions will create a git submodule under the __.themes/bunching-bumbago__ directory. From your blog directory, run these commands.
 
 ``` sh
-git submodule add git://github.com/octopress-themes/bunching-bumbago.git .themes/bunching-bumbago
+git submodule add git://github.com/octothemes/bunching-bumbago.git .themes/bunching-bumbago
 ```
 
 You should then commit the changes.
@@ -69,13 +69,13 @@ Remove the theme entry from the __.gitmodules__ file. The entry should look like
 ```
 [submodule ".themes/bunching-bumbago"]
   path = .themes/bunching-bumbago
-  url = https://github.com/octopress-themes/bunching-bumbago.git
+  url = https://github.com/octothemes/bunching-bumbago.git
 ```
 
 Remove the theme from the __.git/config__ file. The entry should look like this:
 ```
 [submodule ".themes/bunching-bumbago"]
-  url = https://github.com/octopress-themes/bunching-bumbago.git
+  url = https://github.com/octothemes/bunching-bumbago.git
 ```
 
 Remove the theme files with Git.
